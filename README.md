@@ -8,7 +8,7 @@ echo " Docker installation for RED OS 8"
 echo "====================================="
 
 Проверка root
-if [ "$EUID" -ne 0 ]; then
+if [ "$EUID" -ne 0 ]; then 
 echo "Запустите скрипт от root"
 exit 1
 fi
